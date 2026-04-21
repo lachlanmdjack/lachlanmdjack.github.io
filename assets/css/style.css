@@ -1,5 +1,5 @@
 body { 
-  background: #121212; 
+  background: #f9f6f3; 
   color: white; 
   font-family: sans-serif; 
 }
@@ -13,9 +13,9 @@ body {
 
 /* Updated Photo Card with Transition Logic */
 .photo-card {
-  background: #1a1a1a;
-  border-top: 4px solid #00ff00; 
-  border-bottom: 1px solid #333;
+  background: #000000;
+  border-top: 4px solid #858585; 
+  border-bottom: 1px solid #000000;
   position: relative;
   transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
   overflow: hidden; /* Keeps the zoomed image inside the borders */
@@ -24,7 +24,7 @@ body {
 /* The "Playing Card" Hover Effect */
 .photo-card:hover {
   transform: translateY(-10px) scale(1.02); /* Lifts and slightly grows */
-  box-shadow: 0 10px 25px rgba(0, 255, 0, 0.2); /* Neon green glow */
+  box-shadow: 0 10px 25px rgba(117, 117, 117, 0.2); /* Neon green glow */
   cursor: pointer;
   z-index: 2;
 }
