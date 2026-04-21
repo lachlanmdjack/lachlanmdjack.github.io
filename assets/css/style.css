@@ -1,0 +1,39 @@
+body { background: #121212; color: white; font-family: sans-serif; }
+
+.draft-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.photo-card {
+  background: #1a1a1a;
+  border-top: 4px solid #00ff00; /* That bright Ringer green */
+  border-bottom: 1px solid #333;
+}
+
+.photo-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  font-weight: bold;
+  background: #222;
+  font-size: 0.75rem;
+}
+
+.photo-card img { width: 100%; height: auto; display: block; }
+
+.photo-info { padding: 15px; }
+
+.photo-info h3 { 
+  margin: 0; 
+  text-transform: uppercase; 
+  font-size: 1.2rem;
+}
+
+.tags span {
+  color: #00ff00;
+  font-size: 0.7rem;
+  margin-right: 5px;
+}
