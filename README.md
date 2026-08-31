@@ -16,7 +16,7 @@ To unlock all features, the following files must be present in your Jekyll site:
 ├── _config.yml
 ├── _plugins
 ├── _tabs
-└── index.html
+└── index.md
 ```
 
 This starter bundles those files from the latest **Chirpy** release along with a [CD][CD] workflow, so you can start writing immediately.

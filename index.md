@@ -1,0 +1,18 @@
+---
+layout: page
+title: Welcome to My Site
+# Set a custom subtitle if desired
+description: A short description of this page
+---
+
+## Hello World
+
+Write your content here using **standard Markdown** or HTML tags.
+
+* You can include bullet points
+* Add images or embedded links
+* Structure your landing page text however you like
+
+<div class="post-content">
+  You can also write pure HTML blocks inside Jekyll files if you want custom styling layout components.
+</div>
