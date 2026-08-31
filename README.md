@@ -1,5 +1,8 @@
 # Chirpy
 
-`bundle exec jekyll clean`
-`bundle exec jekyll build`
-`bundle exec htmlproofer _site --ignore-urls "/linkedin\.com/,/fonts\.googleapis\.com/,/fonts\.gstatic\.com/,/lachlanmdjack\.github\.io/" --ignore-status-codes 999`
+brew install ruby@3.3
+echo 'export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc;2A
+gem install bundler
+bundle install
+bundle exec jekyll serve
