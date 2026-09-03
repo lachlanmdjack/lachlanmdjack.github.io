@@ -51,7 +51,7 @@ jobs:
         run: |
           bundle exec htmlproofer "_site${{ steps.pages.outputs.base_path }}" \
             --disable-external \
-            --swap-urls "^https:\/\/lachlanmdjack\.github\.io${{ steps.pages.outputs.base_path }}:,^${{ steps.pages.outputs.base_path }}:" \
+            --swap-urls "^https\:\/\/lachlanmdjack\.github\.io${{ steps.pages.outputs.base_path }}:,^${{ steps.pages.outputs.base_path }}:" \
             --ignore-urls "/fonts\.googleapis\.com/,/fonts\.gstatic\.com/,/linkedin\.com/,/^http:\/\/127\.0\.0\.1/,/^http:\/\/0\.0\.0\.0/,/^http:\/\/localhost/" \
             --ignore-status-codes "999"
 
