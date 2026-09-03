@@ -6,3 +6,6 @@ source ~/.zshrc;2A
 gem install bundler
 bundle install
 bundle exec jekyll serve
+
+check html functions:
+bundle exec htmlproofer _site

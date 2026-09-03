@@ -1,0 +1,8 @@
+# .htmlproofer.yml
+ignore_urls:
+  - !ruby/regexp /linkedin\.com/
+  - !ruby/regexp /fonts\.googleapis\.com/
+  - !ruby/regexp /fonts\.gstatic\.com/
+  - !ruby/regexp /lachlanmdjack\.github\.io/
+ignore_status_codes:
+  - 999

@@ -6,7 +6,7 @@ title: The Scrapbook
 tagline: Lachlan Jack
 description: A note-taking book to best organise and demonstrate learnings.
 url: "https://lachlanmdjack.github.io"
-baseurl: "/scrapbook"
+baseurl: ""
 
 github:
   username: lachlanmdjack
